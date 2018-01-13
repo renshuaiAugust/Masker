@@ -1,0 +1,556 @@
+body 
+{
+	/*background-color: #fff9e6;*/
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding:0;
+}
+.bg
+{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+}
+.liebiao li
+{
+	width: 30%;
+	height: 100%;
+	list-style: none;
+	float: left;
+	cursor: pointer;
+}
+.body
+{
+	width:50%;
+}
+header 
+{
+	width:100%;
+	background-color: black;
+	color: white;
+	font-weight:bolder;
+	position: fixed;
+	top:0;
+	display: flex;
+	align-items: center;
+	z-index: 2;
+}
+.inner
+{
+	display: flex;
+	align-items: center;
+	width:100%;
+	height:75px;
+}
+.inner div,.inner span,.inner li
+{
+	line-height: 75px;
+	text-align:center;
+}
+.symbol
+{
+	font-size: 65px;
+	padding: 30px 10px;
+	/*	border: 1px solid red;*/
+	width:15%;
+	height:100%;
+}
+.liebiao 
+{
+	font-size: 20px;
+	margin: 0;
+	padding:0;
+	background-color: black;
+	/*	border: 1px solid red*/;
+	width:40%;
+	height:100%;
+}
+.more
+{
+	position: absolute;
+	background-color: black;
+	border-bottom-left-radius:10px; 
+	border-bottom-right-radius:10px; 
+	font-size: 20px;
+	cursor: pointer;
+	/*	border: 1px solid red;*/
+	width:10%;
+	height:100%;
+	overflow: hidden;
+}
+.zhuxiao
+{
+	line-height:40px !important;
+}
+.serch
+{
+	position: absolute;
+	right: 0;
+	font-size: 20px;
+	/*	border: 1px solid red;*/
+	width:35%;
+	height:100%;
+}
+.sou
+{
+	font-size: 20px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+.tubiao
+{
+	line-height: 100px;
+	text-align:center;
+}
+.point
+{
+	cursor: pointer;
+}
+
+
+/*网页体----------------------------------------------*/
+.body
+{
+
+	position: relative;
+	top:100px;
+	left:250px;
+	z-index: 1;
+}
+/*发布动态/话题----------------------------------------*/
+.action
+{
+	
+	position: fixed;
+	top:120px;
+	left:40px;
+	width:80px;
+	
+}
+.actiondetil
+{
+	width:80px;
+	height:0;
+	overflow: hidden;
+}
+.pencil
+{	
+	cursor: pointer;
+	text-align: center;	
+	background-color: black;
+	opacity: 0.85;
+	color:white;
+	width:100%;
+	height: 80px;
+	border-radius:50%;
+	/*border-bottom-left-radius:0px;
+	border-bottom-right-radius:0px;*/
+}
+.camera
+{
+	
+	cursor: pointer;
+	padding-top:20px; 
+	line-height: 80px;
+	text-align: center;	
+	background-color: black;
+	opacity: 0.85;
+	color:white;
+	width:100%;
+	height: 80px;
+	border: 1px solid black;
+
+}
+
+.comment-o
+{
+	
+	cursor: pointer;
+	padding-top:20px; 
+	padding-bottom: 10px;
+	line-height: 80px;
+	text-align: center;	
+	background-color: black;
+	opacity: 0.85;
+	color:white;
+	width:80px;
+	height: 80px;
+	border: 1px solid black;
+	border-bottom-left-radius:40px;
+	border-bottom-right-radius:40px;
+}
+
+
+
+/*主页关注动态池--------------------------------------*/
+	.focusperson
+{
+	position: relative;
+	border-radius: 10px; 
+	margin-top:20px;  
+	background-color: black;
+	opacity: 0.85;
+	color:white;	
+	width:100%;
+	height:500px;
+}
+
+.star
+{
+	position: absolute;
+	right: 70px;
+	top:170px;
+	cursor: pointer
+}
+.hisaction
+{
+	cursor: pointer;
+}
+/*固定个人导航栏---------------------------------------*/
+
+.wrapper{
+
+	position: fixed;
+	right: 30px;
+	top:0px;
+	width:20%;
+	margin:0 auto;
+	padding:40px;
+	margin-top: 50px;
+}
+.wrapper ul{
+
+	border-radius: 10px; 
+	color:white;    
+	padding: 0;
+	margin: 30px 0;
+	width:100%;
+	height: 350px;
+	margin-bottom:40px;
+
+}
+.wrapper ul li{
+
+	background-color: black;
+	opacity: 0.85;
+	margin: 20px auto;
+	border-radius: 10px; 
+	text-align: center;
+	font-size: smaller;    
+	color: white;
+	width:100%;
+	height: 30px;
+	position:relative;
+	overflow:hidden;
+	cursor:pointer;    
+}
+
+.wrapper ul li .title{
+	font-weight: bolder;
+	font-size: larger;
+	line-height: 40px;
+	overflow:hidden;
+	width:100%;
+
+}
+
+.wrapper ul li .decration{
+	display: none;
+	width:100%;
+	height:10px;        
+	position:absolute;
+	left:-300px; 
+	bottom:30px;
+	color:#FFF; 
+}
+.picBox
+{
+	height: 190px;
+	display: none;
+	font-size: 100px;
+}
+
+
+/*固定话题栏----------------------------------------------*/
+
+.talkabout
+{
+	padding: 10px;
+	border-radius: 10px; 
+	background-color: black;
+	opacity: 0.85;
+	color:white;	
+	width:100%;
+	
+}
+.titleof
+{
+	cursor: pointer;
+	position: relative;
+	padding: 2px;
+	margin-top:5px; 
+	overflow: hidden;
+	border:1px solid white;
+	border-radius: 5px;
+	width:70%;
+	height:18px;
+
+}
+
+.moreabout
+{
+	padding: 2px;
+	margin-top:20px; 
+	overflow: hidden;
+	border:1px solid white;
+	border-radius: 5px;
+	width:30%;
+	height:20px;
+}
+/*隐藏的个人信息页--------------------------------------*/
+.userinfo
+{
+	display: none;
+	position: fixed;
+	top: 0;
+	width:100%;
+	height:100%;
+	background-color:rgba(39,40,34,0.8);
+	z-index: 10;
+}
+.personbox
+{
+	position: relative;
+	border-radius: 35px;
+	background-color:rgba(250,250,250,1.0);
+	background-size: 100%;
+	background-repeat:no-repeat; 
+	width:50%;
+	height: 600px;
+	margin: 0 auto;
+	margin-top: 95px;
+	opacity: 1.0;
+}
+.userhead
+{
+	margin: 20px;
+	border-radius: 15px;
+	width:200px;
+	height:200px;
+}
+.changehead
+{
+	cursor: pointer;
+	display: none;
+	text-align: center;
+	color: white;
+	width:11%;
+	height:20px;
+	border:1px solid white;
+	border-radius: 5px;
+	padding: 5px;
+	position: absolute;
+	top:100px;
+	left:70px;
+}
+.user
+{
+	font-weight: bolder;
+	width:70%;
+	padding: 5px;
+	position: absolute;
+	top:20px;
+	left:270px;
+}
+.user div
+{margin-top: 30px;}
+.userinput
+{
+	font-weight: bolder;
+	padding: 5px;
+	font-size:15px;
+	border:0 white none; 
+	background-color:rgba(0,0,0,0); 
+}
+.username
+{
+	width: 265px;
+}
+.userintr
+{
+	width: 580px;
+}
+
+.intr
+{
+
+	position: relative;
+	left: 45px;
+}
+.intr div
+{
+	font-weight: bolder;
+	margin-top: 20px;
+}
+.changeall,.save
+{
+	cursor: pointer;
+	padding: 5px;
+	border:1px solid black;
+	border-radius: 6px;
+	font-size: larger;
+	position: absolute;
+	bottom: 35px;
+}
+.changeall
+{
+	right: 80px;
+}
+.save
+{
+	display: none;
+	left: 80px;
+}
+.exit,.actionexit
+{
+	width:100px;
+	height:100px;
+	overflow: hidden;
+	cursor: pointer;
+	color: white;
+	position: absolute;
+	left:-100px;
+	top:0;
+
+}
+/*隐藏的我的关注页-----------------------------------*/
+.focus
+{
+	display: none;
+	position: fixed;
+	top: 0;
+	width:100%;
+	height:100%;
+	background-color:rgba(39,40,34,0.8);
+	z-index: 10;
+}
+.focusbox
+{
+
+	position: relative;
+	border-radius: 35px;
+	background-color:rgba(250,250,250,1.0);
+	background-size: 100%;
+	background-repeat:no-repeat; 
+	width:50%;
+	height: 600px;
+	margin: 0 auto;
+	margin-top: 95px;
+	opacity: 1.0;
+}
+
+
+
+
+/*点击相机显示隐藏的发布动态页--------------------------------*/
+.newaction
+{
+	display: none;
+	position: fixed;
+	top: 0;
+	width:100%;
+	height:100%;
+	background-color:rgba(39,40,34,0.8);
+	z-index: 10;
+}
+.actionbox
+{
+	position: relative;
+	border-radius: 35px;
+	background-color:rgba(250,250,250,1.0);
+	background-size: 100%;
+	background-repeat:no-repeat; 
+	width:50%;
+	height: 600px;
+	margin: 0 auto;
+	margin-top: 95px;
+	opacity: 1.0;
+}
+.thishead
+{
+	margin: 20px;
+	border-radius: 15px;
+	width:200px;
+	height:200px;
+}
+.thisname
+{
+	font-size: large;
+	font-weight: bolder;
+	width:70%;
+	padding: 5px;
+	position: absolute;
+	top:50px;
+	left:270px;
+}
+.actionabout
+{
+	font-weight: bolder;
+	width:90%;
+	padding: 5px;
+	position: absolute;
+	top:230px;
+	left:20px;
+}
+.actionabout *
+{
+	margin: 10px 10px;
+}
+.actiontitle input
+{
+	width: 60%;
+	height: 20px;
+}
+
+.add
+{
+	cursor: pointer;
+	position: absolute;
+	bottom: 10px;
+	right:25px;
+	width: 100px;
+	height: 100px;
+}
+.cann,.comi
+{
+	cursor: pointer;
+	padding: 5px;
+	border:1px solid black;
+	border-radius: 6px;
+	font-size: larger;
+	position: absolute;
+	bottom: 35px;
+}
+.cann
+{
+	left:100px;
+}
+.comi
+{
+	right:100px;
+}
+.actionintr
+{width: 580px;}
+/*返回顶部锚点---------------------------------------------*/
+.return
+{
+	
+	opacity: 0.85;
+	color:black;
+	position: fixed;
+	left:50px;
+	bottom:90px;
+	width: 2%;
+}
+

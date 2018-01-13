@@ -1,0 +1,52 @@
+
+.wrapper{
+
+    position: fixed;
+    right: 30px;
+    top:0px;
+    width:20%;
+    margin:50px auto;
+    padding:40px;
+}
+.wrapper ul{
+
+    border-radius: 10px; 
+ 
+ 
+    color:white;    
+    padding: 0;
+    margin: 40px 0;
+    width:100%;
+    height: 350px;
+    overflow: hidden;
+}
+.wrapper ul li{
+    background-color: black;
+    opacity: 0.85;
+    margin: 0 auto;
+    border-bottom:white 1px solid;
+    text-align: center;
+    font-size: smaller;    
+    color: white;
+    width:100%;
+    height: 50px;
+    position:relative;
+    overflow:hidden;
+    cursor:pointer;    
+}
+
+.wrapper ul li .title{
+    overflow:hidden;
+    width:100%;
+    height:50px;
+
+}
+
+.wrapper ul li .decration{
+    width:100%;
+    height:40px;        
+    position:absolute;
+    left:-300px; 
+    bottom:0px;
+    color:#FFF; 
+}

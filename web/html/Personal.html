@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/Personal.css">
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.css">
+
+</head>
+<body id="both">
+<img class="bg" src="../images/2.jpg">
+</img>
+<!-- 网页头 -->
+<header>
+    <div class="inner" id="inner">
+        <div class="symbol" id="symbol">Masker</div>
+
+        <ul class="liebiao">
+            <li class="firstpage">首页</li>
+            <li class="hotpage">热门用户</li>
+            <li>话题广场</li>
+        </ul>
+
+        <div class="more" id="more">
+            <div class='morefirst'>
+                <span>更多</span>
+                <i class="tubiao fa fa-toggle-down fa-lg"></i>
+            </div>
+            <div class='zhuxiao'>注销</div>
+        </div>
+        <div class="serch" id="serch">
+            <input class="sou" type="text" placeholder="请输入关键字">
+            <span class="point">搜索</span>
+        </div>
+    </div>
+</header>
+
+<div class="action" id="iii">
+</div>>
+
+
+
+
+<!-- 固定写动态 -->
+<div class="action" id="action">
+    <div class="pencil fa fa-pencil fa-4x" id="pencil">
+    </div>
+    <div class="actiondetil">
+        <div class="camera fa fa-camera fa-4x" id="camera">
+        </div>
+        <div class="comment-o fa fa-comment-o fa-4x" id="comment-o">
+        </div>
+    </div>
+</div>
+<!-- 固定个人导航栏 -->
+<div class="wrapper">
+    <ul class="wrapUl">
+        <li class="wrapli mineinfo">
+            <div class="title">
+                我的信息
+            </div>
+            <div class="picBox picBox1 fa fa-address-card-o fa-5x"></div>
+            <div class="decration">你可以在这里查看和编辑资料</div>
+        </li>
+        <li class="wrapli mineaction">
+            <div class="title">
+                我的动态
+            </div>
+            <div class="picBox picBox2 fa fa-child fa-5x"></div>
+            <div class="decration">你可以在这里查看和编辑你所有的动态</div>
+        </li>
+        <li class="wrapli minefocus">
+            <div class="title">
+                我关注的人
+            </div>
+            <div class="picBox picBox3 fa fa-heart fa-5x"></div>
+            <div class="decration">你可以在这里查看你关注的人以及他的动态</div>
+        </li>
+
+        <li class="wrapli favourite">
+            <div class="title">
+                收藏夹
+            </div>
+            <div class="picBox picBox5 fa fa-envelope-o fa-5x"></div>
+            <div class="decration">你可以在这里查看你收藏的所有动态</div>
+        </li>
+    </ul>
+    <!-- 固定话题导航栏 -->
+    <div class="talkabout" id="talkabout">
+        <div class="titleof" id="titleof">
+            2017年年终总结
+        </div>
+        <div class="titleof titleof2" id="titleof">
+            一句话扎心扎到起不来..
+        </div>
+        <div class="titleof" id="titleof">
+            你见过哪些无法解释的现象?
+        </div>
+        <div class="titleof titleof2" id="titleof">
+            过年放鞭炮这事儿你怎么看?
+        </div>
+        <div class="moreabout" id="moreabout">
+            更多话题
+        </div>
+    </div>
+</div>
+<!-- 隐藏的个人信息页 -->
+<div class="userinfo" id="userinfo">
+
+
+</div>
+
+
+<!-- 隐藏的发布动态页 -->
+<div class="newaction">
+    <form name="action" id="actionbox" class="actionbox" enctype="multipart/form-data">
+        <div class="actionexit fa fa-power-off fa-5x"></div>
+        <img src="" alt='头像' class="thishead">
+        <div class="thisname">
+
+        </div>
+
+        <div class="actionabout">
+            <div class="actiontitle">
+                动态标题:<input name="actiontitle" type="text">
+            </div>
+
+            <input id="actionimg" type="file" hidden="hidden" name="actionimg">
+            <textarea name="actiondetil" rows="10" cols="60" placeholder="写点什么吧..." class="actionintr"></textarea>
+            <img src="../images/add.jpg" alt="" class="add" id="img1">
+        </div>
+        <div class="cann" id="cann">取消</div>
+        <div class="comi" id="comi">发布</div>
+    </form>
+</div>
+<!-- 隐藏的话题发布页 -->
+<div class="talkaction" id="talkaction" hidden="hidden">
+    <div>
+        <div>发起话题</div>
+        <div>
+            <div><input type="text" value="话题主题(6-15个字)"></div>
+            <div><input type="text" value="话题描述"></div>
+            <div>取消</div>
+            <div>提交</div>
+        </div>
+    </div>
+    <div>
+        <div>什么是话题？
+            拟定一个好玩或有意义的主题，邀请大家根据主题发布日志，并打上特定的标签，即为MASKER的话题。
+        </div>
+        <div>什么样的话题会通过审核？
+            有一个易懂的标签名称，能够直白的说明主题，且不与其他常用标签重复；有一个简单好玩的主题。通过清晰易读的介绍，让大家对主题产生共鸣，从而吸引更多人参与。
+        </div>
+    </div>
+</div>
+<!-- 网页体 -->
+<div class="body" id="body">
+    <!-- 锚点 -->
+    <a href=""></a>
+    <!-- 关注的人的动态池 -->
+    <div class="focusperson" id="focusperson">
+        <div class="focusactiontitle" id="focusactiontitle">
+            快去结识朋友发布动态吧~
+        </div>
+    </div>
+</div>
+<!-- 固定的返回顶部图标 -->
+<a class="return  fa fa-arrow-circle-up fa-4x" id="return"
+   href="Personal.html#both">
+</a>
+
+</body>
+<script src="../js/jquery.js"></script>
+<script src="../js/personal.js"></script>
+</html>

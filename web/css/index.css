@@ -1,0 +1,145 @@
+
+body
+{
+	padding:0;
+	margin: 0;
+
+	width: 100%;
+	height: 100%;
+
+}
+.bg
+{
+	width:100%;
+	height:100%;
+	position: fixed;
+}
+.title
+{
+	height: 100px;
+	position: absolute;
+	top: 80px;
+	left:530px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.masker
+{
+	font-size: 100px;
+	font-weight: bolder;
+
+}
+.title div
+{
+	text-align: center;
+}
+.body
+{
+	width: 400px;
+	position: absolute;
+	top:265px;
+	left:500px;
+}
+.list
+{
+	width: 400px;
+}
+.list ul li
+{
+	padding: 9px;
+	height: 100%;
+	line-height: 200%;
+	margin-left: 20px; 
+	display: inline;
+	cursor: pointer;
+}
+.list ul
+{
+	margin: 0;
+	
+}
+.form1,.form2
+{
+	border: 1px solid #665d55;
+	border-radius: 10px;
+	width:340px;
+	background-color: black; 
+	position: absolute;
+	opacity: 0.8;
+	z-index: 20;
+}
+.form2
+{
+	display: none;
+}
+.form3
+{
+	display: none;
+	border: 1px solid #665d55;
+	border-radius: 10px;
+	width:340px;
+	height: 400px;
+	position: absolute;
+	opacity: 0.8;
+	background-image: url("../images/1750314082.jpg");
+	background-size: 100%;
+}
+.login1,.register1,.download1
+{
+	border: 1px solid #665d55;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	color: white;
+	background-color: black; 
+	opacity: 0.8;
+}
+
+.inputspace1,.inputspace2
+{
+	border: 1px solid #665d55;
+	border-radius: 10px;
+	margin-left:20px;
+	margin-top: 15px;
+	background-color: #665d55;
+	border: none;
+	width: 290px;
+	height:40px;
+}
+.forget
+{
+	width: 90px;
+	margin-left:230px;
+	margin-top:10px;
+	margin-bottom:10px;
+	font-size: smaller;
+	color: white;
+	cursor: pointer;
+
+}
+.submit1,.submit2
+{
+	cursor: pointer;
+	border: 1px solid #665d55;
+	border-radius: 10px;
+	margin-left:20px;
+	margin-top: 15px;
+	margin-bottom:15px;
+	background-color: #665d55;
+	border: none;
+	width: 290px;
+	height:40px;
+	text-align: center;
+	line-height: 40px;
+	font-weight: bold;
+	color: white;
+	opacity: 1.0;
+
+}
+#worning1,#worning2,#worning3,#worning4,#worning5
+{
+	color: yellow;
+	font-size: smaller;
+	font-weight: bolder;
+	margin-left:20px; 
+}
+
